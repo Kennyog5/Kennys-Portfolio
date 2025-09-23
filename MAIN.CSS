@@ -1,7 +1,7 @@
-.body{
-    margin: 0px;
+*{
     padding: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-family: Noto Serif;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -336,6 +336,7 @@ footer p{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 2);
 
 }
+
 
 
 
