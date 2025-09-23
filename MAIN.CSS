@@ -1,4 +1,5 @@
 *{
+    position:fixed
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -334,3 +335,4 @@ footer p{
     box-shadow: 0 5px 5px rgba(0, 0, 0, 2);
 
 }
+
