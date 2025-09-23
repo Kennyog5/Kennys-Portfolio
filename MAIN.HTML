@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KENNYOG5 WEBSITE</title>
+    <link rel="stylesheet" href="MAIN.CSS">
+</head>
+<body>
+     <!----top Section start---->
+    <div class="top">
+        <nav>
+            <h2 class="logo">Port<span>folio</span></h2>
+            <ul>
+                <li><a href="MAIN.HTML">Home</a></li>
+                <li><a href="https://wa.me/2349017756274">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h4>Hello, my name is</h4>
+            <h1>Kehinde<span>Daniel</span></h1>
+            <h3>I am a Project Manager</h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" id="mail" placeholder="Insert Email">
+                    <input type="submit" name="submit" value="Accompany me" onclick="openPopup()">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="popup">
+        
+        <h2>THANK YOU.</h2>
+        <p>MAIL SENT</p>
+        <button type="button" onclick="closePopup()">OK</button>
+    </div>
+    <script>
+        let popup = document.getElementById("popup")
+
+        function openPopup(){
+                popup.classList.add("open-popup");
+            }
+            function closePopup(){
+                popup.classList.remove("open-popup");
+            }
+    </script>
+
+   
+    <section class="about">
+        <div class="main">
+            <img src="My image.jpeg">
+            <div class="about-text">
+                <h2>ABOUT ME</h2>
+                <h5> PROJECT MANAGER, PRODUCT MANAGER <span>WEB DEVELOPER & SOCIAL MEDIA MANAGER</span></h5>
+                    <p>My name is KEHINDE DANIEL and I am a finalist in LASU (Lagos State University), studying PROJECT MANAGEMENT TECHNOLOGY.
+                        I am passionate about technology, and have always been fascinated by how things work and how I can use technology to make my life easier and more efficient.</p>
+                    <p>I am also a SOCIAL MEDIA MANAGER with 3 years of experience, as well as a VIRTUAL ASSISTAN. I am constantly learning about new technologies and staying up-to-date with the latest developments in the field. I have exprience in WEB DEVELOPMENT and major in the HTML, CSS & JAVASCRIPT field.</p>
+                    <p>In my free time, you can often find me browsing online forums and blogs to learn more about technology and troubleshoot any problems I may encounter. I also enjoy playing video games and participating in online communities centered around technology and gaming</p>
+                    <p>I am excited to see where my love of technology takes me in the future and I'm always looking for new ways to expand my knowledge and skills in this field</p>
+                    <a class="button" href="https://wa.me/2349017756274">Let's GO.</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="Service">
+        <div class="services">
+            <h2>My Services</h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <h5>WEB DEVELOPMENT</h5>
+                <div class="pra">
+                    <p>My service is high-quality and i ensure my clients satisfaction. I've worked and completed many job in Social media management and completed a course in Product management, i am also knowledgeable in Web devlopment and i am in the final stage of my Project Management course in the University.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="k">Read More.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h5>PROJECT & PRODUCT MANAGEMENT</h5>
+                <div class="pra">
+                    <p>I am a in the final year student, studying PROJECT MANAGEMENT Tech and have gained experience and knowledge after doing my Industrial Training of 6-months at FAAN (FEDERAL AIRPORT AUTHORITY OF NIGERIA). I recently learned and completed a course in Product Management in Udemy,I have little experience in this field, still i am confident i can deliver.</p>
+
+                    <p style="text-align: center;">
+                            <a class="button" href="k">Read More.</a>
+                        </p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>SOCIAL MEDIA MANAGEMENT</h5>
+                <p>I have about three years in the field of Social Media Management as i have worked with various clients to create content in order to promote their products and ensure activity on their social media. i work with platforms like Tiktok, Instagram, X , Facebook and other platforms.</p>
+                
+                <p style="text-align: center;">
+                            <a class="button" href="k">Read More.</a>
+                        </p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact-me">
+            <p>Let's Share ideas together on the field of <span>Technology</span></p>
+            <a class="button-two" href="https://wa.me/2349017756274">Message Me</a>
+        </div>
+    
+        
+        <footer>
+            <p>KENNYOG5</p>
+            <div class="social">
+                <a href="https://www.facebook.com/kennyog5.Daniel"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/kennyog52?s=21"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_kennyog5?igsh=MTl6YWxiZzU5YzUx"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+</body>
+</html>
